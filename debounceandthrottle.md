@@ -5,6 +5,9 @@
 Debounce is useful for fast typing, while throttle is useful for fast clicks or hot APIs.  
 a single function < a single component / lib . the best is the component
 
+`useCallback` keeps the function stable when other states in the search component change.
+Don't want to run the logic on every scroll event because scrolling can trigger events every few milliseconds.
+
 I like the code in https://medium.com/@ignatovich.dm/debouncing-and-throttling-in-react-whats-the-difference-and-how-to-implement-them-0a500b649235
 This one is good too. https://medium.com/@gabrielmickey28/using-debounce-with-react-components-f988c28f52c1
 
